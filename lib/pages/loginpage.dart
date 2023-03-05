@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/pages/homepage.dart';
 import 'package:flutter_application_1/routs.dart';
 
-class loginpage extends StatefulWidget {  
+class loginpage extends StatefulWidget {
   const loginpage({super.key});
 
   @override
@@ -10,20 +10,20 @@ class loginpage extends StatefulWidget {
 }
 
 class _loginpageState extends State<loginpage> {
-  String name = "";
+ static String name = "";
   bool v1 = false;
   final _formkey = GlobalKey<FormState>();
   moveToHome(BuildContext context) async {
-    if (_formkey.currentState.validate()) {
-      setState(() {
-        v1 = true;
-      });
-      await Future.delayed(Duration(seconds: 2));
-      await Navigator.pushNamed(context, Myrouts.homepage);
-      setState(() {
-        v1 = false;
-      });
-    }
+    // if (_formkey.currentState.?1:2) {
+    setState(() {
+      v1 = true;
+    });
+    await Future.delayed(Duration(seconds: 2));
+    await Navigator.pushNamed(context, Myrouts.homepage);
+    setState(() {
+      v1 = false;
+    });
+    // }
   }
 
   @override
@@ -47,7 +47,8 @@ class _loginpageState extends State<loginpage> {
                       fontWeight: FontWeight.bold),
                 ),
                 Padding(
-                  padding: const EdgeInsets.symmetric(vertical: 16,horizontal: 32),
+                  padding:
+                      const EdgeInsets.symmetric(vertical: 16, horizontal: 32),
                   child: Column(children: [
                     TextFormField(
                       decoration: InputDecoration(
@@ -55,7 +56,7 @@ class _loginpageState extends State<loginpage> {
                         labelText: "username",
                       ),
                       validator: (value) {
-                        if (value.isEmpty) {
+                        if (value==Null) {
                           return "Enter the valid username";
                         }
                         return null;
@@ -72,13 +73,12 @@ class _loginpageState extends State<loginpage> {
                         labelText: "password",
                       ),
                       validator: (value) {
-                        if (value.isEmpty) {
+                        if (value==Null) {
                           return "Enter the valid password";
-                        } else if (value.length<6) {
+                        } else if (value != 6) {
                           return "passwaord Length must be 6 or above";
                         }
-                          return null;
-                        
+                        return null;
                       },
                     ),
                     SizedBox(height: 20.0),
@@ -109,8 +109,7 @@ class _loginpageState extends State<loginpage> {
                         ),
                       ),
                     ),
-                  ]
-                  ),
+                  ]),
                 )
 
                 // ElevatedButton(
