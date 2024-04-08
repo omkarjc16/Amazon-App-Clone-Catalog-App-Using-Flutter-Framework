@@ -1,16 +1,28 @@
-# flutter_application_1
+# Catalog-App
+**Catalog-App** This project is created for undestanding of how amazon application works how we can build that kinds of applications for that perpose i have developed this app for learing flutter framework
 
-A new Flutter project.
+## Screenshots
+<div style="display: flex; justify-content: space-between;">
+    <img src="https://drive.google.com/uc?export=download&id=1exOzcGM16KQt2PrKzJuDUy5jFlr1MKC8" width="200" style="margin-right: 20px;">
+    <img src="https://drive.google.com/uc?export=download&id=1L0Na2_bATfENtiKPEttbXbTWziPSgYtw" width="200" style="margin-right: 20px;">
+    <img src="https://drive.google.com/uc?export=download&id=1xltRoNE45AGcs8m8b5z1CMcVqvme4SFv" width="200" style="margin-right: 20px;">
+    <img src="https://drive.google.com/uc?export=download&id=1NUjpjFHlWvUmhxcwGx_yOHCnBFiESqep" width="200" style="margin-right: 20px;">
+    <img src="https://drive.google.com/uc?export=download&id=1NUjpjFHlWvUmhxcwGx_yOHCnBFiESqep" width="200" style="margin-right: 20px;">
+    <img src="https://drive.google.com/uc?export=download&id=1qGV_S6_aOqXptEHhbIkb4KG3OepPpSgi" width="200">
+</div>
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies Used
+- Google Firebase
+- flutter framework
+## Usage
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+clone this repository and open in vs code bulid app for your required platform.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Credits
+
+- Author: Omkar chavan
+
+## License
+
