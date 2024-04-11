@@ -3,12 +3,9 @@
 
 ## Screenshots
 <div style="display: flex; justify-content: space-between;">
-    <img src="https://drive.google.com/uc?export=download&id=1exOzcGM16KQt2PrKzJuDUy5jFlr1MKC8" width="200" style="margin-right: 20px;">
-    <img src="https://drive.google.com/uc?export=download&id=1L0Na2_bATfENtiKPEttbXbTWziPSgYtw" width="200" style="margin-right: 20px;">
-    <img src="https://drive.google.com/uc?export=download&id=1xltRoNE45AGcs8m8b5z1CMcVqvme4SFv" width="200" style="margin-right: 20px;">
-    <img src="https://drive.google.com/uc?export=download&id=1NUjpjFHlWvUmhxcwGx_yOHCnBFiESqep" width="200" style="margin-right: 20px;">
-    <img src="https://drive.google.com/uc?export=download&id=1NUjpjFHlWvUmhxcwGx_yOHCnBFiESqep" width="200" style="margin-right: 20px;">
-    <img src="https://drive.google.com/uc?export=download&id=1qGV_S6_aOqXptEHhbIkb4KG3OepPpSgi" width="200">
+    <img src="https://drive.google.com/uc?export=download&id=1mb-TUlkLtoXIPk9RMUGPVhapjbfBiGfm" width="200" style="margin-left: 100px;">
+    <img src="https://drive.google.com/uc?export=download&id=16xgXu_S_d4r4kT4aGQqvI8hbH2Tr69GV" width="200" style="margin-right: 100px;">
+    <img src="https://drive.google.com/uc?export=download&id=1HuRUazeWLomQaLO1iMLn3pXiD6qCWc1B" width="200">
 </div>
 
 
